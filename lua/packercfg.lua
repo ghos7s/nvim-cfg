@@ -18,6 +18,7 @@ packer.startup(function(use)
     use 'hrsh7th/cmp-nvim-lsp'
     use 'neovim/nvim-lspconfig'
     use 'lewis6991/gitsigns.nvim'
+    use 'tpope/vim-fugitive'
 
     if packer_status then
     	packer.sync()
