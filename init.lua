@@ -1,5 +1,6 @@
 require('nvimcfg')
 require('packercfg')
 require('lsp')
+require('keymaps')
 require('tokyonight').setup({})
 vim.cmd([[colorscheme tokyonight]])
