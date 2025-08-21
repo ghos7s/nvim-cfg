@@ -1,0 +1,5 @@
+require('nvimcfg')
+require('packercfg')
+require('lsp')
+require('tokyonight').setup({})
+vim.cmd([[colorscheme tokyonight]])
