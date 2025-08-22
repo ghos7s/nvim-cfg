@@ -19,6 +19,8 @@ packer.startup(function(use)
     use 'neovim/nvim-lspconfig.nvim'
     use 'lewis6991/gitsigns.nvim'
     use 'tpope/vim-fugitive.nvim'
+    use 'nvim-telescope/telescope.nvim'
+    use 'nvim-lua/plenary.nvim'
 
     if packer_status then
     	packer.sync()
