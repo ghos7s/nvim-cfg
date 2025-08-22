@@ -13,12 +13,12 @@ local packer = require('packer')
 
 packer.startup(function(use)
 	use 'wbthomason/packer.nvim'
-	use 'folke/tokyonight.nvim'
-    use 'hrsh7th/nvim-cmp'
-    use 'hrsh7th/cmp-nvim-lsp'
-    use 'neovim/nvim-lspconfig'
+    use 'WilliamHsieh/catppuccin.nvim'
+    use 'hrsh7th/nvim-cmp.nvim'
+    use 'hrsh7th/cmp-nvim-lsp.nvim'
+    use 'neovim/nvim-lspconfig.nvim'
     use 'lewis6991/gitsigns.nvim'
-    use 'tpope/vim-fugitive'
+    use 'tpope/vim-fugitive.nvim'
 
     if packer_status then
     	packer.sync()
