@@ -1,0 +1,7 @@
+require('nvimcfg')
+require('packercfg')
+require('lsp')
+require('keymaps')
+require('statusbar')
+require('catppuccin').setup({})
+vim.cmd([[colorscheme catppuccin-mocha]])
